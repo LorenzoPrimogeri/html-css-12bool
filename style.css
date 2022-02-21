@@ -1,8 +1,16 @@
-.box{
-    
-    height: 40px;
-    background-color: blue;
+.box{  
     color: white;
     border: 1px solid white;
     text-align: center;
+}
+.pd-10{
+    padding: 10px 10px 0px 10px;
+}
+.bg-blue{    
+    background-color: blue;
+    height: 50px;
+}
+.bg-green{    
+    background-color: green;
+    height: 30px;
 }
