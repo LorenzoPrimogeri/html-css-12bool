@@ -6,7 +6,7 @@
 [class*="col-"]{
     flex: 0 0 auto;
 }
-.conteiner{
+.container{
     max-width: 1170px;
     margin: auto;
 }
