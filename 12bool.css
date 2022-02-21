@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+[class*="col-"]{
+    flex: 0 0 auto;
+}
 .conteiner{
     max-width: 1170px;
     margin: auto;
@@ -87,9 +90,7 @@
     flex-basis: calc((100% / 12) * 12);
     max-width: calc((100% / 12) * 12);
 }
-/* [class*="col-"]{
-    flex: 0 0 auto;
-} */
+
 .col{
     flex-grow: 1;
     flex-basis: 0;
