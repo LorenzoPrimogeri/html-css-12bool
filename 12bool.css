@@ -12,6 +12,33 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
+.jc-start{
+    justify-content: flex-start;  
+}
+.jc-center{
+  justify-content: center;  
+}
+.jc-end{
+    justify-content: flex-end;  
+}
+.jc-aroud{
+    justify-content: space-around;  
+}
+.jc-between{
+    justify-content: space-between;  
+}
+.ai-start{
+    align-items: flex-start;
+}
+.ai-center{
+    align-items: center;
+}
+.ai-end{
+    align-items: flex-end;
+}
+.w-100{
+    width: 100%;
+}
 .col-1{
     flex-basis: calc((100% / 12) * 1);
     max-width: calc((100% / 12) * 1);

@@ -48,12 +48,12 @@
             <div class="box bg-blue col-1"> 1 col</div>
         </section>
         <section class="col-12 flex">
-            <div class="box bg-blue col-6 pd-10 flex">
+            <div class="box bg-blue col-6 flex">
                 <div class="box bg-green col-2">nested 2 col</div>
                 <div class="box bg-green col-2">nested 2 col</div>
                 <div class="box bg-green col-8">nested 8 col</div>
             </div>
-            <div class="box bg-blue col-6 flex pd-10">
+            <div class="box bg-blue col-6 flex">
                 <div class="box bg-green col-6">nested 6 col</div>
                 <div class="box bg-green col-6">nested 6 col</div>
             </div>
@@ -130,7 +130,72 @@
             <div class="box col-offset-1"></div>
             <div class="box bg-blue col-11"></div>
         </section>
-
+        <h1>Nested</h1>
+        <section class="col-12 flex">
+            <div class="box bg-blue col-8 flex">
+                <div class="box bg-green col-3"></div>
+                <div class="box bg-green col-6"></div>
+                <div class="box bg-green col-3"></div>
+            </div>
+            <div class="box bg-blue col-4 flex">
+                <div class="box bg-green col-6"></div>
+                <div class="box bg-green col-6"></div>
+            </div>
+        </section>
+        <h1>Alignmet</h1>
+        <section class="col-12 flex jc-start">
+            <div class="box bg-blue col-5">start</div>
+        </section>
+        <section class="col-12 flex jc-center">
+            <div class="box bg-blue col-5">center</div>
+        </section>
+        <section class="col-12 flex jc-end">
+            <div class="box bg-blue col-5">end</div>
+        </section>
+        <section class="col-12 flex ai-start">
+            <div class="box bg-blue col-6">
+                <div class="box bg-blue col-5 no-boder"></div>
+                <div class="box bg-blue col-5 no-boder"></div>
+            </div>
+            <div class="col-12">
+                <div class="box bg-blue col-12 no-boder">Top</div>
+            </div>
+        </section>
+        <section class="col-12 flex ai-center">
+            <div class="box bg-blue col-6">
+                <div class="box bg-blue col-5 no-boder"></div>
+                <div class="box bg-blue col-5 no-boder"></div>
+            </div>
+            <div class="col-12">
+                <div class="box bg-blue col-12 no-boder">center</div>
+            </div>
+        </section>
+        <section class="col-12 flex ai-end">
+            <div class="box bg-blue col-6">
+                <div class="box bg-blue col-5 no-boder"></div>
+                <div class="box bg-blue col-5 no-boder"></div>
+            </div>
+            <div class="col-12">
+                <div class="box bg-blue col-12 no-boder">end</div>
+            </div>
+        </section>
+        <h1 class="w-100">Justify content</h1>
+        <h3>space around</h3>
+        <section class="col-12 flex">
+            <div class="box bg-blue col-12 flex jc-aroud">
+                <div class="box bg-green col-3 no-boder"></div>
+                <div class="box bg-green col-3 no-boder"></div>
+                <div class="box bg-green col-3 no-boder"></div>
+            </div>
+        </section>
+        <h3 class="w-100">space between</h3>
+        <section class="col-12 flex">
+            <div class="box bg-blue col-12 flex jc-between">
+                <div class="box bg-green col-3 no-boder"></div>
+                <div class="box bg-green col-3 no-boder"></div>
+                <div class="box bg-green col-3 no-boder"></div>
+            </div>
+        </section>
     </main>
 </body>
 

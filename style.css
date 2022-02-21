@@ -8,9 +8,12 @@
 }
 .bg-blue{    
     background-color: blue;
-    height: 50px;
+    padding: 15px;
 }
 .bg-green{    
     background-color: green;
-    height: 30px;
+    padding: 10px;
+}
+.no-boder{
+    border: none;
 }
